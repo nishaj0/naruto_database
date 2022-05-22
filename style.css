@@ -1,12 +1,20 @@
-.sec{
+.sec {
     background-image: url(762104.jpg);
     width: 100%;
-    height: 50em;
+    height: 47em;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
 }
-.head{
+
+.head {
     background-color: rgb(15, 14, 14);
 }
-.sign-up-btn{
+
+.sign-up-btn {
     background-color: #193871;
-    
+
 }
