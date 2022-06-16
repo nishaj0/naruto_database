@@ -19,9 +19,9 @@
 
 }
 .logo{
-    width: 100px;
+    width: 130px;
     cursor: pointer;
-    margin: 20px 0;
+    margin: 15px 0;
 }
 .menu-icon{
     width: 25px;
@@ -45,4 +45,27 @@ nav ul li a{
 }
 nav ul li a:hover{
     color: #ea82b0;
+}
+.col-2{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;   
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+.col-2 h2{
+    font-size: 40px;
+}
+.col-2 h3{
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom:20px;
+}.col-2 p{
+    font-size: 16px;
+    font-weight: 100;
+    color: rgb(114, 109, 109);
 }
