@@ -68,4 +68,28 @@ nav ul li a:hover{
     font-size: 16px;
     font-weight: 100;
     color: rgb(114, 109, 109);
+    margin: 30px 0;
+}
+button{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    color: #fff;
+    background: linear-gradient(to right,#59e6ff,#e982af);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+button img {
+    width: 30px;
+    display: none;
+}
+button:hover img{
+    display: block;
+}
+button:hover{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
