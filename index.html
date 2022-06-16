@@ -16,7 +16,7 @@
         <div class="navbar">
             <img src="Naruto title.png" class="logo">
             <nav>
-                <ul>
+                <ul id="menuList">
                     <li><a href="">Akatsuki</a></li>
                     <li><a href="">Hokage</a></li>
                     <li><a href="">Legendary sanin</a></li>
@@ -24,7 +24,7 @@
                 </ul>
             </nav>
 
-            <img src="konoha_logo.png" class="menu-icon">
+            <img src="konoha_logo.png" class="menu-icon" onclick="togglemenu()">
         </div>
         <div class="row">
 
@@ -38,11 +38,29 @@
                 <h2>Konohagakure</h2>
                 <h3>(木ノ葉隠れの里)</h3>
                 <p>Hidden Leaf village of the Land of Fire, One of the powerful village</p>
-                <button type="button">Explore <img src="arrow.png"></button>
+                <button type="button">Explore now <img src="arrow.png"></button>
             </div>
         </div>
     </div>
 
+
+    <script>
+        var menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px"
+
+        function togglemenu(){
+
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px"
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px"
+            }
+        }
+
+    </script>
 
     <script src="jquery-3.6.0.js"></script>
     <!--<script src="bootstrap5.bundle.min.js"></script>-->
