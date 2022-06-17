@@ -12,33 +12,53 @@
     <!--<link rel="stylesheet" href="bootstrap5.min.css">-->
     <link rel="stylesheet" href="style.css">
 
-    <div class="container">
+    <div class="container" id="container">
         <div class="navbar">
-            <img src="Naruto title.png" class="logo">
+            <a href="#container"><img src="Naruto title.png"  class="logo"></a>
             <nav>
                 <ul id="menuList">
-                    <li><a href="">Akatsuki</a></li>
                     <li><a href="">Hokage</a></li>
-                    <li><a href="">Legendary sanin</a></li>
                     <li><a href="">Ninjas</a></li>
+                    <li><a href="">Others</a></li>
+                    <li><a href="">About</a></li>
                 </ul>
             </nav>
 
             <img src="konoha_logo.png" class="menu-icon" onclick="togglemenu()">
         </div>
-        <div class="row">
+        <div class="content">
+            <div class="row">
 
 
-            <div class="col-1">
-                <img src="Konoha_village.jpg" class="village">
+                <div class="col-1">
+                    <img src="Konoha_village.jpg" class="village">
+                </div>
+
+
+                <div class="col-2">
+                    <h2>Konohagakure</h2>
+                    <h3>(木ノ葉隠れの里)</h3>
+                    <p>Hidden Leaf village of the Land of Fire, One of the powerful village</p>
+                    <button class="btn-h" type="button">Explore now <img src="arrow.png"></button>
+                </div>
             </div>
 
 
-            <div class="col-2">
-                <h2>Konohagakure</h2>
-                <h3>(木ノ葉隠れの里)</h3>
-                <p>Hidden Leaf village of the Land of Fire, One of the powerful village</p>
-                <button type="button">Explore now <img src="arrow.png"></button>
+            <div>
+                <section>
+                    <h1 class="shinobi">Shinobi</h1>
+                    <div class="card">
+                        <img src="img.jpg" alt="John" style="width:100%">
+                        <h1>John Doe</h1>
+                        <p class="title">CEO & Founder, Example</p>
+                        <p>Harvard University</p>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <p><button class="btn-c">Contact</button></p>
+                    </div>
+                </section>
             </div>
         </div>
     </div>
@@ -48,14 +68,12 @@
         var menuList = document.getElementById("menuList")
         menuList.style.maxHeight = "0px"
 
-        function togglemenu(){
+        function togglemenu() {
 
-            if(menuList.style.maxHeight == "0px")
-            {
+            if (menuList.style.maxHeight == "0px") {
                 menuList.style.maxHeight = "130px"
             }
-            else
-            {
+            else {
                 menuList.style.maxHeight = "0px"
             }
         }

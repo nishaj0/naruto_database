@@ -4,6 +4,10 @@
     font-family: sans-serif;
 
 }
+.content{
+    z-index: 1;
+    
+}
 .container{
     width: 100%;
     min-height: 100vh;
@@ -16,6 +20,11 @@
     width: 100%;
     display: flex;
     align-items: center;
+    z-index: 2;
+    background-color: #fff;
+    ;
+    
+    
 
 }
 .logo{
@@ -73,7 +82,7 @@ nav ul li a:hover{
     color: rgb(114, 109, 109);
     margin: 30px 0;
 }
-button{
+.btn-h{
     width: 140px;
     border: 0;
     padding: 12px 10px;
@@ -84,14 +93,14 @@ button{
     transition: width 0.5s;
     
 }
-button img {
+.btn-h img {
     width: 30px;
     display: none;
 }
-button:hover img{
+.btn-h:hover img{
     display: block;
 }
-button:hover{
+.btn-h:hover{
     width: 160px;
     display: flex;
     align-items: center;
@@ -114,6 +123,43 @@ button:hover{
 }
 
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.btn-c{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.btn-c:hover, a:hover {
+  opacity: 0.7;
+}
+
+
+
 @media only screen and (max-width:700px){
 
     nav ul{
@@ -122,7 +168,7 @@ button:hover{
         position: absolute;
         top: 75px;
         right: 0;
-        z-index: 2;
+        z-index: 5;
 
     }
 
@@ -163,7 +209,7 @@ button:hover{
     .col-1 img {
         width: 100%;
     }
-    button{
+    .btn-h{
         width: 124px;
         
     }
