@@ -163,4 +163,11 @@ button:hover{
     .col-1 img {
         width: 100%;
     }
+    button{
+        width: 124px;
+        
+    }
+    .logo{
+        width: 100px;
+    }
 }
