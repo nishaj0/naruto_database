@@ -65,6 +65,7 @@ nav ul li a:hover{
     flex-basis: 40%;
     position: relative;
     margin-left: 50px;   
+    align-items: center;
 }
 .row{
     display: flex;
