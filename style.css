@@ -23,7 +23,9 @@
     align-items: center;
     z-index: 2;
     background-color: #fff;
-    ;
+    font-weight: bolder;
+    
+    
     
     
 
@@ -32,6 +34,7 @@
     width: 130px;
     cursor: pointer;
     margin: 15px 0;
+    
 }
 .menu-icon{
     width: 25px;
@@ -41,6 +44,8 @@
 nav{
     flex: 1;
     text-align: right;
+    
+    
 }
 nav ul li{
     list-style: none;
@@ -172,6 +177,9 @@ nav ul li a:hover{
 
 
 @media only screen and (max-width:750px){
+    .navbar{
+        font-weight: normal;
+    }
 
     nav ul{
         width: 100%;
