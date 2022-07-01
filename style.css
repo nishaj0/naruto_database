@@ -30,6 +30,10 @@
     
 
 }
+.explorenow-a{
+    text-decoration:none;
+    transition: 0.5s;
+}
 .logo{
     width: 130px;
     cursor: pointer;
