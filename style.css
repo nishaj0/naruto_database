@@ -142,7 +142,7 @@ nav ul li a:hover{
 
     background: linear-gradient(to bottom,#fff,#d0d0d0);
     padding-bottom: 5rem;
-    padding-top: 5rem;
+    
     
 }
 
@@ -151,13 +151,9 @@ nav ul li a:hover{
     text-align: center;
     font-size: 40px;
     margin-bottom: 8rem;
+    margin-top: 10rem;
 }
 
-
-.hokage-hat{
-    width: 50px;
-    
-}
 
 
 .card {
@@ -168,7 +164,6 @@ nav ul li a:hover{
   text-align: center;
   background-color: #fff;
   margin: 20px;
-  
   
   
 }
@@ -188,6 +183,19 @@ nav ul li a:hover{
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 10%;
+}
+
+.shinobi-h{
+    text-align: center;
+    font-size: 40px;
+}
+
+.shinobi-div{
+
+    background: linear-gradient(to bottom,#d0d0d0,#fff);
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    
 }
 
 
