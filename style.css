@@ -140,9 +140,10 @@ nav ul li a:hover{
 }
 .hokage-div{
 
-    background: linear-gradient(to bottom,#fff,#d0d0d0);
+    background: #2E2E2E;
     padding-bottom: 5rem;
-    
+    padding-left: 4%;
+    padding-right: 4%;
     
 }
 
@@ -150,8 +151,10 @@ nav ul li a:hover{
 .hokage-h{
     text-align: center;
     font-size: 40px;
-    margin-bottom: 8rem;
+    margin-bottom: 4rem;
     margin-top: 10rem;
+    padding-top: 4rem;
+    color: #fff;
 }
 
 
