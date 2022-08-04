@@ -143,10 +143,11 @@ nav ul li a:hover{
 }
 .hokage-div{
 
-    background: #d0d0d0;
+    background: #ebebeb;
     padding-bottom: 5rem;
     padding-left: 4%;
     padding-right: 4%;
+    
     
 }
 
@@ -165,10 +166,9 @@ nav ul li a:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 275px;
   max-height: 500px;
-  margin: auto;
   text-align: center;
   background-color: #fff;
-  margin: 20px;
+  margin: 4rem;
   border-radius: 25px;
   
   
@@ -182,7 +182,7 @@ nav ul li a:hover{
     width: 75%;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    border-radius: 100px;
+    border-radius: 100%;
 }
 
 .c-txt{
@@ -272,5 +272,16 @@ nav ul li a:hover{
     .content-row{
         flex-direction: column;
         margin: 50px 0;
+    }
+    .hokage-div{
+        
+    }
+    .card{
+        margin-top: auto;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        max-width: none;
+        max-height: none;
     }
 }
