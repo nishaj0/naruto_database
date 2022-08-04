@@ -27,8 +27,6 @@
     margin-top: 1rem;
     
     
-    
-
 }
 .explorenow-a{
     text-decoration:none;
@@ -281,5 +279,11 @@ nav ul li a:hover{
         margin-right: 5%;
         max-width: none;
         max-height: none;
+    }
+    .col-1{
+        margin-top: 2rem;
+    }
+    .col-2{
+        margin-top: 4rem;
     }
 }
