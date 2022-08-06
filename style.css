@@ -269,9 +269,6 @@ nav ul li a:hover{
         flex-direction: column;
         margin: 50px 0;
     }
-    .hokage-div{
-        
-    }
     .card{
         margin-top: auto;
         width: 90%;
@@ -284,6 +281,6 @@ nav ul li a:hover{
         margin-top: 1rem;
     }
     .col-2{
-        margin-top: 4rem;
+        margin-top: 6rem;
     }
 }
