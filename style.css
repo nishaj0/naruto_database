@@ -245,6 +245,7 @@ nav ul li a:hover{
     .col-2{
         flex-basis: 100%;
         margin-top: 50px;
+        margin-left: 40px;
     }
     .col-1{
         flex-basis: 100%;
@@ -280,7 +281,5 @@ nav ul li a:hover{
     .col-1{
         margin-top: 1rem;
     }
-    .col-2{
-        margin-top: 6rem;
-    }
+    
 }
