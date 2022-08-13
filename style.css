@@ -200,7 +200,23 @@ nav ul li a:hover{
     padding-top: 5rem;
     
 }
+.footer{
+    background: rgb(255 87 34 / 89%);
+    height: 200px;
+    text-align: center;
 
+}
+.footer img{
+    width: 30px;
+    height: 30px;
+    margin: 50px 10px 0 10px;
+    cursor: pointer;
+
+}
+.footer h3{
+    margin-top: 25px;
+    font-size: 30px;
+}
 
 
 
@@ -280,6 +296,23 @@ nav ul li a:hover{
     }
     .col-1{
         margin-top: 1rem;
+    }
+    .footer{
+        background: rgb(255 87 34 / 89%);
+        height: 150px;
+        text-align: center;
+    
+    }
+    .footer img{
+        width: 20px;
+        height: 20px;
+        margin: 30px 10px 0 10px;
+        cursor: pointer;
+    
+    }
+    .footer h3{
+        margin-top: 20px;
+        font-size: 20px;
     }
     
 }
