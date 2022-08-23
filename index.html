@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="scroll-behavior:smooth;">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -20,7 +20,7 @@
                     <li><a href="#hokage-div-id">Hokage</a></li>
                     <li><a href="">Shinobi</a></li>
                     <li><a href="">Others</a></li>
-                    <li><a href="">About</a></li>
+                    <li><a href="#about">About</a></li>
 
                 </ul>
             </nav>
@@ -48,11 +48,11 @@
 
 
             <div class="hokage-div" id="hokage-div-id">
-                <section id="hokage">
+                <section id="hokage ">
 
-                    <h1 class="hokage-h">Hokage </h1>
-                    <div class="content-row">
-                        <div class="col-c1">
+                    <h1 class="hokage-h  reveal">Hokage </h1>
+                    <div class="content-row  reveal">
+                        <div class="col-c1 ">
                             <div class="card">
                                 <img src="Images/Dp/Hashirama.jpg" alt="image not found">
                                 <div class="c-txt">
@@ -96,7 +96,7 @@
 
 
 
-                    <div class="content-row">
+                    <div class="content-row  reveal">
                         <div class="col-c1">
                             <div class="card">
                                 <img src="Images/Dp/Minato Namikaze.jpg" alt="image not found">
@@ -143,7 +143,7 @@
 
         </div>
 
-        <div class="footer">
+        <div class="footer" id="about">
 
             <div class="media">
                 <a href="https://www.instagram.com/z_y_r_o__/?igshid=YmMyMTA2M2Y%3D"><img src="Images/Media/Instagram.png" alt="" ></a>
@@ -158,21 +158,7 @@
     </div>
 
 
-    <script>
-        var menuList = document.getElementById("menuList")
-        menuList.style.maxHeight = "0px"
-
-        function togglemenu() {
-
-            if (menuList.style.maxHeight == "0px") {
-                menuList.style.maxHeight = "130px"
-            }
-            else {
-                menuList.style.maxHeight = "0px"
-            }
-        }
-
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
